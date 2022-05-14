@@ -6,6 +6,8 @@
 #include <fcntl.h>
 #include <unistd.h>
 
+// code based on https://embetronicx.com/tutorials/linux/device-drivers/linux-device-driver-tutorial-programming/
+
 #define DEVICE "/dev/my_device"
 #define open_mode O_RDWR
 #define SIZE_BUFF 512
