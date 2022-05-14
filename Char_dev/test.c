@@ -26,7 +26,7 @@ int main(void){
                 return 0;
         }
         while(1) {
-        	repeat:
+repeat:
                 printf("****Please Enter the Option******\n");
                 printf("        1. Write               \n");
                 printf("        2. Read                 \n");
