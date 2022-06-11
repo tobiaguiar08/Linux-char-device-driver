@@ -1,4 +1,4 @@
-# Linux character device driver with basic file operations commands
+# Linux character device driver with basic file operations command and sleep feature
 
 # How to use it 
 
@@ -21,20 +21,17 @@ To be able to run this application, there are a few steps to follow :
   ```
   Keep in mind that you are touching areas with privilege access (the linux kernel), that's why you need to execute it as super user.
 ## 3. Running the program
-  Once you've installed the module, you just have the program left to run . So you just need to execute the user application program and you should be able to write and read to your new device driver! :)
+  Once you've installed the module, you just have the program left to run . So you just need to execute the user application program and you should be able to write and read IOCtls commands to your new device driver! :)
 
 ## 4. Deleting the module
   Once you finished with your program, you can execute the following commands to undo what you've done :
   ```
   sudo sh clean.sh
-  make clean
   ```
-  Or if you are in the same directory as the files :
+  Or  :
   ```
   sudo ./clean.sh
-  make clean
   ```
-### Notes
-  Feel free to modify and use the code as you want. If you find something like an error or if i said something wrong, or even if my english is not clear for you, please feel also free to let me know that, so we can grow together. If you have comments or criticism i am all ears, after all i'm still a beginner in this, not trivial, field. I'm still going to keep modifing this repository and add more information and details (Like trying to explain the lines of the makefile and shellscript, and also add more comments to the sources files) to keep as undestandable as possible.
+
   
   Happy code!
